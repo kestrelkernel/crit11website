@@ -204,4 +204,65 @@ div.smallerbigbox.expandable {
     background: #FDF974;
     z-index: -1;
 }
+@media (max-width: 900px) {
+    .navigationbar {
+        height: auto;
+        min-height: 69px;
+        padding-bottom: 10px;
+    }
+
+    .navigationlinks {
+        top: 0;
+        float: none;
+        display: inline-block;
+        padding: 10px 12px;
+    }
+
+    div.aboutmeflex,
+    .linksflex {
+        height: auto;
+        min-height: calc(100vh - 140px);
+        padding-top: 90px;
+    }
+
+    div.aboutmepage,
+    .bigbox {
+        width: 92%;
+    }
+
+    .about-title {
+        font-size: 36px;
+    }
+
+    .about-content {
+        font-size: 20px;
+        padding: 0 20px 20px 20px;
+    }
+
+    .rows {
+        flex-direction: column;
+        height: auto;
+        gap: 14px;
+    }
+
+    .infowidget {
+        width: 100%;
+        min-height: 110px;
+    }
+
+    .stupiddivider {
+        display: none;
+    }
+
+    .statstext {
+        top: 120px;
+        font-size: 16px;
+    }
+
+    .imageshitter {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 /* add random title to titleclass
